@@ -10,3 +10,6 @@
 - Else go with option 3
 
 ## Player Logic
+- Create function getHumanChoice
+- Prompt user for choice
+- Return their choice back

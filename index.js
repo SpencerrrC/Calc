@@ -1,24 +1,38 @@
 console.log("hello world. Let's get this game started")
 
 // Computer's decision
-function getComputerChoice(computerResponse) {
+function getComputerChoice() {
     
     computerResponse = Math.random();
 
     if (computerResponse <= .33) { 
-        return console.log("Rock");
+        return "Rock";
     }
 
     else if (computerResponse <= .66) { 
-        return console.log("Paper");
+        return "Paper";
     }
 
     else {
-        return console.log("Scissors");
+        return "Scissors";
     }
-    
-};
+}
 
-getComputerChoice(1);
+console.log(getComputerChoice());
 
 
+function getHumanChoice() {
+    let humanResponse = prompt("Enter choice here");
+
+    if (humanResponse === "rock") {
+        return "Rock";
+    }
+    else if (humanResponse === "paper") {
+        return "Paper";
+    }
+    else if (humanResponse === "scissors") {
+        return "Scissors";
+    }
+}
+
+console.log(getHumanChoice());
