@@ -19,3 +19,8 @@
 - Continue with the other 2 conditions
 - However, if human and cpu have the same, print a message saying no one wins
 - Else statement to catch all conditions where cpu wins, which adds 1 point to cpu and prints lose message
+
+## Game Logic
+- While loop iterates rounds until number of rounds is finished
+- Winner is determined by their final score count
+- 
