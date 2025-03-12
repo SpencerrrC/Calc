@@ -13,3 +13,9 @@
 - Create function getHumanChoice
 - Prompt user for choice
 - Return their choice back
+
+## Round Logic
+- If human has rock and cpu has scissors, add 1 point to human and print win message
+- Continue with the other 2 conditions
+- However, if human and cpu have the same, print a message saying no one wins
+- Else statement to catch all conditions where cpu wins, which adds 1 point to cpu and prints lose message
